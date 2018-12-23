@@ -87,7 +87,7 @@ index_with_subtitle: false
 # Value before `||` delimeter is the target link.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
-  home: / || home
+  #home: / || home
   tags: /tags/ || tags
   categories: /categories/ || th
   schedule: /calendar/ || calendar
@@ -127,7 +127,7 @@ social:
   GitHub: https://github.com/ckhongme || github
   Twitter: https://twitter.com/yourname || twitter
   简书: https://www.jianshu.com/users/3fe594bec4cb/timeline || book
-  知乎: https://www.zhihu.com/people/hck-12/activities || book
+  知乎: https://www.zhihu.com/people/hck-12/activities || zhihu
   #E-Mail: mailto:yourname@gmail.com || envelope
   #Google: https://plus.google.com/yourname || google
 
@@ -552,16 +552,16 @@ busuanzi_count:
   enable: false
   # custom uv span for the whole site
   site_uv: true
-  site_uv_header: <i class="fa fa-user"></i>
-  site_uv_footer:
+  site_uv_header: <i class="fa fa-user"></i> 访问人数
+  site_uv_footer: 人
   # custom pv span for the whole site
   site_pv: true
-  site_pv_header: <i class="fa fa-eye"></i>
-  site_pv_footer:
+  site_pv_header: <i class="fa fa-eye"></i> 总访问量
+  site_pv_footer: 次
   # custom pv span for one page only
   page_pv: true
-  page_pv_header: <i class="fa fa-file-o"></i>
-  page_pv_footer:
+  page_pv_header: <i class="fa fa-file-o"></i> 阅读数
+  page_pv_footer: 
 
 
 # Tencent analytics ID
