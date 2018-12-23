@@ -88,11 +88,11 @@ index_with_subtitle: false
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   home: / || home
-  archives: / || archive
-  schedule: / || calendar
+  tags: /tags/ || tags
+  categories: /categories/ || th
+  schedule: /calendar/ || calendar
   #about: /about/ || user
-  #tags: /tags/ || tags
-  #categories: /categories/ || th
+  #archives: /archives/ || archive
 
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
@@ -144,7 +144,7 @@ links_title: Links
 links_layout: inline
 links:
   #Title: http://example.com/
-  百度: https：//www.baidu.com/
+  百度: https://www.baidu.com/
 
 #Sidebar Avatar 设置头像
 # in theme directory(source/images): /images/avatar.gif
@@ -186,9 +186,11 @@ sidebar:
   #display: remove
 
   # Sidebar offset from top menubar in pixels (only for Pisces | Gemini).
+  # 文章间距
   offset: 12
 
   # Back to top in sidebar (only for Pisces | Gemini).
+  # 返回顶部按钮
   b2t: false
 
   # Scroll percent label in b2t button.

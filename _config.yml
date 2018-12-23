@@ -7,7 +7,7 @@
 title: 喵将's博客
 subtitle: 
 #网站描述
-deription:
+deription: 现在只要静静地等风到来~
 keywords:
 #网站作者
 author: CatHong
@@ -97,3 +97,4 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
