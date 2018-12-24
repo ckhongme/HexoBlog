@@ -90,7 +90,7 @@ menu:
   #home: / || home
   tags: /tags/ || tags
   categories: /categories/ || th
-  schedule: /calendar/ || calendar
+  #schedule: /calendar/ || calendar
   #about: /about/ || user
   #archives: /archives/ || archive
 
