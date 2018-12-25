@@ -1,5 +1,8 @@
 ---
 title: Markdown 语法笔记
+date: 2018-12-26
+tags: [Markdown]
+categories: 搭建git博客
 ---
 Markdonw是一种很方便的标记语言，可以使普通文本内容具有一定的格式；记录一下Markdown的语法，方便以后查阅；
 
