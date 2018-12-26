@@ -38,12 +38,12 @@ $ npm install hexo-deployer-git --save    	      //安装hexo部署工具
 $ hexo -v        //版本号
 ```
 
-### 修改hexo的配置文件（—config.yml）的部署方式：
+### 修改hexo的配置文件（\_config.yml）的部署方式：
 
 ``` bash
 deploy:
 type: git
-repo: git@github.com:ckhongme/ckhongme.github.io.git
+repo: git@github.com:username/username.github.io.git
 branch: master
 ```
 
@@ -58,9 +58,9 @@ $ hexo s                            //server
 在hexo目录， 右键git-bash here，进入bash命令行：
 
 ``` bash
-$ hexo clean                       //清理生成的博客
+$ hexo clean                         //清理生成的博客 (一般不调用)
 $ hexo g                             //生成静态文件：博客文件     generate
-$ hexo d                             //部署到github上                 deploy
+$ hexo d                             //部署到github上            deploy
 ```
 
 ### 拷贝别人的Blog主题
