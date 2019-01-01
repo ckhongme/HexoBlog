@@ -4,7 +4,7 @@ date: 2018-12-28
 tags: [Python]
 categories: 脚本语言
 ---
-关于Python的语法，
+Python的基本语法
 
 ## Python基础
 
