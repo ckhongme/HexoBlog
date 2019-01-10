@@ -2,7 +2,7 @@
 title: Markdown 语法笔记
 date: 2018-12-26
 tags: [Markdown]
-categories: 搭建git博客
+categories: 标记语言
 ---
 Markdonw是一种很方便的标记语言，可以使普通文本内容具有一定的格式；记录一下Markdown的语法，方便以后查阅；
 
@@ -15,7 +15,7 @@ Markdonw是一种很方便的标记语言，可以使普通文本内容具有一
 	### 三级标题  	|	 	<strong><font size="3">三级标题</font></strong>
 	#### 四级标题 	|	 	<strong><font size="2">四级标题</font></strong>
 	##### 五级标题	|		<strong><font size="1">五级标题</font></strong>
-	- 文本			|		文本
+	- 文本			|		· 文本
 	1.文本 			|		1.文本
 	添加链接：[显示文本]（链接地址）	|	例如：[简书]（http://www.jianshu.com）
 	添加图片：![]（图片链接地址）		|	例如：![](http://upload-images.jiansh

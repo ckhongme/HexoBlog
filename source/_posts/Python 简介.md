@@ -1,5 +1,5 @@
 ---
-title: Python 初识
+title: Python 简介
 date: 2018-12-27
 tags: [Python]
 categories: 脚本语言
