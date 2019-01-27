@@ -6,6 +6,8 @@ categories: 脚本语言
 ---
 
 ## PHP
+php是主要用于编写后端功能的脚本语言；
+
 #### PHP是什么？
 超文本预处理器（全称Hypertext Preprocessor），是一种web服务器端的脚本语言；
 php代码运行在服务端，并且输出HTML给浏览器；

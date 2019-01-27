@@ -4,9 +4,9 @@ date: 2018-12-27
 tags: [Python]
 categories: 脚本语言
 ---
-准备先学习一门脚本语言，选了Python，语法相关的主要是学习了廖大神的教程：[廖雪峰的官方网站](https://www.liaoxuefeng.com)
 
 ## Python
+准备先学习一门脚本语言，选了Python，语法相关的主要是学习了廖大神的教程：[廖雪峰的官方网站](https://www.liaoxuefeng.com)
 
 #### Python是什么？
 - Python是一种相对其他语言，完成相同任务的代码量较少，但运行速度也较慢的高级语言；（代码量少的代价就是运行速度慢）

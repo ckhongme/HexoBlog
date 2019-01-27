@@ -6,6 +6,8 @@ categories: 脚本语言
 ---
 
 ## JavaScript
+JS是当前比较流行的脚本语言；
+
 ### JavaScript是什么？
 - JavaScript是属于Web的语言，是一种运行在浏览器的脚本语言；（客户端脚本，通过浏览器解释执行）
 - 是一种解释性语言；

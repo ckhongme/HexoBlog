@@ -1,11 +1,13 @@
 ---
 title: HTML 简介
-date: 2019-01-21
+date: 2019-01-15
 tags: [HTML, 网页]
 categories: 标记语言
 ---
 
 ## HTML
+说到html，最容易想到的就是网页；
+
 #### HTML是什么？
 超文本标记语言(全称 **H**yper **T**ext **M**arkup **L**anguage)， 是一种用来描述网页的语言；
 不是一种编程语言，而是一种标记语言；
