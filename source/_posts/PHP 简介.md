@@ -1,7 +1,7 @@
 ---
 title: PHP 简介
 date: 2019-01-27
-tags: [PHP, Web开发，后端]
+tags: [PHP, Web开发, 后端]
 categories: 脚本语言
 ---
 

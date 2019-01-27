@@ -1,8 +1,8 @@
 ---
 title: Web开发的前端和后端
 date: 2019-01-30
-tags: [Web开发，前端，后端]
-categories: Web开发
+tags: [Web开发, 前端, 后端]
+categories: 基础
 ---
 
 ## 前端和后端
