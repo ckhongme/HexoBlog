@@ -1,7 +1,7 @@
 ---
 title: HTML 简介
 date: 2019-01-15
-tags: [HTML, 网页]
+tags: [HTML, Web开发，前端]
 categories: 标记语言
 ---
 
