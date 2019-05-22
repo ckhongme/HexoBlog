@@ -91,9 +91,10 @@ menu:
   目录: /archives/ || archive
   tags: /tags/ || tags
   categories: /categories/ || th
+  sitemap: /sitemap.xml || sitemap
+
   #schedule: /calendar/ || calendar
   #about: /about/ || user
-  #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
 
 # Enable/Disable menu icons.
