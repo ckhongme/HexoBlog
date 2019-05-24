@@ -29,7 +29,7 @@ favicon:
 
 # Set default keywords (Use a comma to separate)
 # 设置关键字
-keywords: "Code, C#, Unity, Shder"
+keywords: "Code, C#, Unity, Shader"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -149,7 +149,7 @@ links:
 #Sidebar Avatar 设置头像
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: /images/catjiang.png
+avatar: /images/catjiang.jpg
 
 # Table Of Contents in the Sidebar
 toc:
