@@ -127,7 +127,7 @@ Oculus Quest是一体式VR设备，使用时无需电脑，也不用接线，所
 
 
 **致谢**：
-本文主要参考自Daniel Leivers的博客：https://medium.com/@sofaracing/how-to-develop-for-oculus-quest-on-macos-with-unity-5aa487b80d13
+本文主要参考自Daniel Leivers的博客：[How to get started with Oculus Quest and Unity on macOS](https://medium.com/@sofaracing/how-to-develop-for-oculus-quest-on-macos-with-unity-5aa487b80d13)
 如果能上外网的同学也可以查看 [youtube上的一个视频](https://www.youtube.com/watch?v=eySe4Wj6xbk)
 
 
