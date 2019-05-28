@@ -102,7 +102,7 @@ Oculus Quest是一体式VR设备，使用时无需电脑，也不用接线，所
 	*需要注意的是，连接Wifi时，如果总是显示连接失败，需要切换到可以上外网的wifi；*
 3. 选中你的Quest头显 -> 进入更多设置（More Settings) -> Developr Mode -> 打开
  	<div align=center>
-		<img width=400 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/OculusQuest/cellPhone/OculusQuest_phone_19052802.png">
+		<img width=400 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/OculusQuest/cellPhone/OculusQuest_phone_19052803.png">
 	</div>
 4. 通过USB将电脑和Quest连接在一起；第一次连接时需要带上头显，用手柄选择“允许电脑连接Quest”；
 5. 连接完成后，可以在 Build Setting 中的 Run Device 找到对应的 Quest设备；(如果没有，点击Refresh试试)
