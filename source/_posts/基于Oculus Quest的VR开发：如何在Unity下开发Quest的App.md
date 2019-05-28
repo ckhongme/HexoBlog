@@ -95,11 +95,10 @@ Oculus Quest是一体式VR设备，使用时无需电脑，也不用接线，所
 通过手机的 Oculus app 可以将 Quest头显 设置成开发者模式（Developer Mode）
 
 1. 确保你在 Quest头显 上登陆的账号与 手机Oculus App上的一致；
-2. 按照App的提示配对你的Quest头显；
+2. 按照App的提示配对你的Quest头显；	*需要注意的是，连接Wifi时，如果总是显示连接失败，需要切换到可以上外网的wifi；*
  	<div align=center>
 		<img width=400 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/OculusQuest/cellPhone/OculusQuest_phone_19052801.png">
 	</div>
-	*需要注意的是，连接Wifi时，如果总是显示连接失败，需要切换到可以上外网的wifi；*
 3. 选中你的Quest头显 -> 进入更多设置（More Settings) -> Developr Mode -> 打开
  	<div align=center>
 		<img width=400 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/OculusQuest/cellPhone/OculusQuest_phone_19052803.png">
