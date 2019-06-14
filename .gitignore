@@ -16,6 +16,7 @@ package-lock.json
 !/themes/next/source
 /themes/next/source/*
 !/themes/next/source/images
+!/themes/next/source/css
 
 
 
