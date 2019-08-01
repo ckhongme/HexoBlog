@@ -100,3 +100,5 @@ deploy:
   repo: https://github.com/ckhongme/ckhongme.github.io.git
   branch: master
 
+sitemap:
+  path: sitemap.xml
