@@ -108,3 +108,9 @@ sitemap:
 
 baidusitemap:
   path: baidusitemap.xml
+
+nofollow:
+  enable: true
+  exclude: 
+  - exclude1.com
+  - exclude2.com
