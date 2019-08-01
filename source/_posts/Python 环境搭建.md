@@ -4,7 +4,6 @@ date: 2019-01-01
 tags: [Python]
 categories: 脚本语言
 ---
-中途插入一下字符编码的复习~~
 
 ## 开发环境搭建
 1. 安装[Python](https://www.python.org)
