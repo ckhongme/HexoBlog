@@ -48,7 +48,7 @@ Properties
 ||  float |
 ||  Range(表示范围值) |
 
-*更多具体的书写格式，请查看我的另外一篇文章：*[UnityShader常用术语查询](http://www.jianshu.com)
+*更多具体的书写格式，请查看我的另外一篇文章：*[UnityShader常用术语查询](https://ckhongme.github.io/2019/04-10/UnityShader%20-%20UnityShader%E5%B8%B8%E7%94%A8%E6%9C%AF%E8%AF%AD%E6%9F%A5%E8%AF%A2/)
 
 ## SubShader 子着色器 （第二部分）
 SubShader可以有多个，但至少要有一个；
