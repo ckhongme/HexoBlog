@@ -118,7 +118,7 @@ SubShader
 		Name "Pass名称"
 		Tags{}
 		CGPROGRAM
-		...
+		...(着色器代码)
 		ENDCG
 	}
 }
