@@ -10,7 +10,9 @@ categories: Unity
 ---
 
 # 变量
-### 变量类型（UnityShader的属性）
+
+## 变量类型（UnityShader的属性）
+
 | 变量  | 类型  | 写法  |
 | :------------ | :------------ | :------------ |
 | Int   |  整数类型 | \_Int ( "Int", Int) = 2  |
@@ -22,7 +24,8 @@ categories: Unity
 | 3D     | 3D纹理贴图  | \_3D("3D", 3D) = "black" { }  |
 | Cube   | 三维纹理  | \_CubeTex ( "3DMap"，Cube ) = "white" { }  |
 
-### 变量类型（CG程序）
+## 变量类型（CG程序）
+
 | 变量  | 类型  |
 | :------------ | :------------ |
 | int    | 32位整形数据  |
@@ -33,7 +36,7 @@ categories: Unity
 | bool  | 布尔数据，被所有的图形接口支持 |
 | string  | 字符类型  |
 
-### ShaderLab与CG的变量类型匹配
+## ShaderLab与CG的变量类型匹配
 | ShaderLab  | CG  |
 | :------------ | :------------ |
 | Color/Vector  |  float4/half4/fixed4 |
@@ -42,9 +45,19 @@ categories: Unity
 | Cube  | sampleCube  |
 | 3D  | sample3D  |
 
----
+## UnityShader内置的时间变量
 
+| 名称  | 类型  | 说明  |
+| :------------ | :------------ | :------------ |
+| _Time   |  float4  | t是自该场景加载开始所经过的时间,4个分量分别是(t/20, t, 2t, 3t) |
+| _SinTime|  float4  | t是时间的正弦值,4个分量的值分别是(t/8, t/4, t/2, t) |
+| _CosTime    |  float4  |t是时间的余弦值,4个分量的值分别是(t/8, t/4, t/2, t)|
+| unity_DeltaTime   |  float4  | dt是时间增量,4个分量分别是(dt, 1/dt, smoothDt, 1/smoothDt) |
+
+---
+ 
 # 标签
+
 ## 标签类型（用于SubShader）
 | 标签  | 作用  |
 | :------------ | :------------ |
@@ -109,7 +122,7 @@ categories: Unity
 
 # 语义
 
-### 应用程序 -> 顶点函数 （a2v）
+## 应用程序 -> 顶点函数 （a2v）
 | 语义名称  | 意义  |
 | :------------ | :------------ |
 | POSITION | 顶点坐标（模型空间下的）  |
@@ -118,7 +131,7 @@ categories: Unity
 |  TEXCOORD0~ｎ | 纹理坐标  |
 | COLOR  |  顶点颜色 |
 
-### 顶点函数 -> 片元函数（v2f）
+## 顶点函数 -> 片元函数（v2f）
 | 语义名称  | 意义  |
 | :------------ | :------------ |
 | SV_POSITION | 剪裁空间中的顶点坐标（一般是系统直接使用）  |
