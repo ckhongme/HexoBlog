@@ -1,7 +1,7 @@
 ---
 title: UnityShader - ShaderLab整体结构
 date: 2019-04-05
-tags: [UnityShader, ShaderLab]
+tags: [UnityShader]
 categories: Unity
 ---
 

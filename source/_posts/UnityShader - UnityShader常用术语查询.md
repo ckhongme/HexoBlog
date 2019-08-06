@@ -1,7 +1,7 @@
 ---
 title: UnityShader - 常用术语查询
 date: 2019-04-10
-tags: [UnityShader, ShaderLab, Shader]
+tags: [UnityShader]
 categories: Unity
 ---
 
