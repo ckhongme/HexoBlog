@@ -15,7 +15,7 @@ categories: VR开发
 
 **注意**：如果导入新版的SDK之后，报了下面这个错：
 ``[SteamVR] Error during OpenVR Init: Init_InterfaceNotFound``
-说明请求的接口不存在，steamVr runtime目前的版本不兼容sdk的接口，需要更新 runtime，这在下面对SteamVR Runtime的设置中回进行；
+说明请求的接口不存在，steamVr runtime目前的版本不兼容sdk的接口，需要更新 runtime，这在下面对SteamVR Runtime的设置中会进行；
 
 2. 在Unity菜单栏下选中Window->SteamVR Input，在弹出的窗口选择 Yes;
 <div align=center>
