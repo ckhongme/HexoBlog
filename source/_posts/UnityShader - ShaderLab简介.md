@@ -6,7 +6,7 @@ categories: Unity
 ---
 
 在学习UnityShader之前，先了解一下Shader是什么；
-## Shader
+# Shader
 ### 什么是Shader？
 Shader（着色器）是一段规定好输入（颜色，贴图等）和输出（渲染器能够读懂的点和颜色的对应关系）的代码；
 ### Shader有什么用？
@@ -39,7 +39,7 @@ C#编码是在CPU角度；而Shader编码是在GPU角度；
 
 
 
-## UnityShader
+# UnityShader
 
 ### 什么是UnityShader？
 UnityShader实际上指的就是一个ShaderLab文件（后缀为.shader的文件），是用ShaderLab语言编写的，重点支持Cg语言；
