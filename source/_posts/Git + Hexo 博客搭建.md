@@ -1,8 +1,8 @@
 ---
 title: Git + Hexo 博客搭建
 date: 2018-12-25
-tags: [hexo, git]
-categories: 搭建git博客
+tags: [hexo, git, blog]
+categories: Git相关
 ---
 
 搭建博客，一来想着用博客可以记录一下自己的笔记，二来想通过搭建博客熟悉一下GitHub的使用。
