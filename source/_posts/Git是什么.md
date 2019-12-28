@@ -36,7 +36,7 @@ github是一个网站，提供git仓库的托管服务，注册一个github账�
 **暂存区（Index）**：版本库里有个叫 index 的暂存区，是缓存区域，用于临时保存改动（在对文件进行修改之后自动创建）；
 
 <div align=center>
-	<img width=400 src="https://github.com/ckhongme/HexoBlog/blob/master/source/images/Git/git%20learning/Git_19122701.png">
+	<img width=400 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/Git/git%20learning/Git_19122701.png">
 </div>
 
 第一步是添加修改，把文件修改添加到暂存区；
