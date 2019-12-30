@@ -13,6 +13,9 @@ package-lock.json
 /themes/next/*
 !/themes/next/_config.yml
 !/themes/next/layout
+!/themes/next/languages
+/themes/next/languages/*
+!/themes/next/languages/zh-Hans.yml
 !/themes/next/source
 /themes/next/source/*
 !/themes/next/source/images

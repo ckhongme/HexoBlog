@@ -87,10 +87,11 @@ index_with_subtitle: false
 # Value before `||` delimeter is the target link.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
-  首页: / || home
-  目录: /archives/ || archive
+  home: /home/ || home
+  archives: /archives/ || archive
   tags: /tags/ || tags
   categories: /categories/ || th
+  #top: /top/ || signal
   sitemap: /sitemap.xml || sitemap
 
   #schedule: /calendar/ || calendar
@@ -190,11 +191,12 @@ sidebar:
   offset: 12
 
   # Back to top in sidebar (only for Pisces | Gemini).
-  # 返回顶部按钮
-  b2t: false
+  # 是否开启 “返回顶部” 的按钮
+  b2t: true
 
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  # 是否显示 当前浏览的进度
+  scrollpercent: true
 
   # Enable sidebar on narrow view (only for Muse | Mist).
   onmobile: false
