@@ -5,76 +5,103 @@ tags: [HTCVive, SteamVR]
 categories: VR开发
 ---
 
-自从SteamVR plugin for Unity（后面简称steamVR sdk）升级到2.0+版本之后，就引入了 SteamVR Input 输入系统，目的是将具体的输入设备与游戏逻辑分开，让开发者可以专心根据功能来开发，而不需要关注设备的具体按键；
+最近将SteamVR Runtime更新到1.9.16，结果发现它的操作界面又变了；
+关于新版本Steam Rumtime的Tracker配对问题，很多人发现进到Demo，Tracker的朝向不对，跟现实的角度有一定差距，下面我们就来解决一下这个问题；
 
-但这个升级也改变了很多steamVR sdk原本的脚本，使得部分之前用 steamVR sdk 1.0+版本开发的同学一下子适应不过来，下面我主要讲讲使用 steamVR sdk2.0+版本时，要如何在Unity中适配 Tracker；
+## Manage Controller Bingding的设置
 
-
-## A.在Unity端的操作
-1. 通过Unity的AssetStore获取最新版本的SteamVR sdk；
-
-**注意**：如果导入新版的SDK之后，报了下面这个错：
-``[SteamVR] Error during OpenVR Init: Init_InterfaceNotFound``
-说明请求的接口不存在，steamVr runtime目前的版本不兼容sdk的接口，需要更新 runtime，这在下面对SteamVR Runtime的设置中会进行；
-
-2. 在Unity菜单栏下选中Window->SteamVR Input，在弹出的窗口选择 Yes;
+1. 打开Steam应用；
 <div align=center>
-	<img width=500 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/SteamVR2.0_19110811.png">
-	<img width=400 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/SteamVR2.0_19110814.png"
+	<img width=50 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123101.png">
 </div> 
-3. 在SteamVR Input窗口，保持默认就好，然后选择 Save and generate；
+2. 打开SteamVR Runtime；
 <div align=center>
-	<img width=500 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/SteamVR2.0_19110812.png">
-</div>
-5. 此时会发现Project面板多了下面三个文件夹；
+	<img width=500 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123102.png">
+</div> 
+3. 保证SteamVR正常运行中，并且配对好两个Tracker；
 <div align=center>
-	<img width=300 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/SteamVR2.0_19110813.png">
+	<img width=300 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123103.png">
 </div>
-6. 将 [CameraRig] 下的两个 Controller 上的 Pose Action 设置成 \actions\default\in\Pose, 然后把 InputSource 分别设置成 LeftHand 和 RightHand；
+4. 选择“设备”，再选择“控制器设置”；
 <div align=center>
-	<img width=500 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/SteamVR2.0_19110802.png">
+	<img width=300 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123104.png">
 </div>
+5. 选择“Controllers”，再选择“Manage Controller Bingding”；
+<div align=center>
+	<img width=350 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123105.png">
+</div>
+6. 找到“Manage Controller Bindings For”，并选择要运行的程序名称（也就是Tracker出现朝向问题的程序）；
+<div align=center>
+	<img width=300 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123106.png">
+	<img width=300 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123107.png">
+</div>
+7. 将Active Controller Binding 设置成 “CUSTOM”，再选择“EDIT THIS BINDING”；
+<div align=center>
+	<img width=300 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123108.png">
+</div>
+8. 选择返回，返回上一级界面；
+<div align=center>
+	<img width=550 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123109.png">
+</div>
+9. 重新选择“当前控制器”；
+<div align=center>
+	<img width=450 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123110.png">
+</div>
+10. 将当前控制器设置成 “Vive Tracker in Hand”；
+<div align=center>
+	<img width=350 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123111.png">
+</div>
+11. 在当前按键设置中，选择“编辑”；
+<div align=center>
+	<img width=450 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123112.png">
+</div>
+12. 选择“编辑动作姿势”；
+<div align=center>
+	<img width=550 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123113.png">
+</div>
+13. 设置“左手原始”；
+<div align=center>
+	<img width=400 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123114.png">
+</div>
+14. 将左手原始，设置成 “left_pose”；
+<div align=center>
+	<img width=350 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123115.png">
+</div>
+15. 同理，将右手原始设置成“right_pose”;
+<div align=center>
+	<img width=250 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123116.png">
+</div>
+16. 关闭窗口，再返回上一级；
+<div align=center>
+	<img width=600 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123117.png">
+</div>
+17. 看到“当前按键设置”里面出来了（本地更改）模式即可；
+<div align=center>
+	<img width=600 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123118.png">
+</div>
+18. 关闭SteamVR；
+<div align=center>
+	<img width=300 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123119.png">
+</div>
+19. 完全退出Steam；（桌面菜单栏，找到Steam的图标，右键，退出）
+<div align=center>
+	<img width=350 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123120.png">
+</div>
+20. 重新启动Demo； 再重新打开SteamVR，不打开Steam即可；（注意，不打开Steam，只打开SteamVR；）
 
 
-## B.对SteamVR Runtime的设置
-1. 打开Steam并登陆账号（不登陆的话后面有些操作进行不了），然后更新SteamVR runtime的版本；
-2. 通过Steam上的VR打开SteamVR runtime；
-<div align=center>
-	<img width=300 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/SteamVR2.0_19110801.png">
-</div>
-3. 通过 Steam VR runtime 进入“控制器输入按键设置”窗口；
-<div align=center>
-	<img width=400 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/SteamVR2.0_19110803.png">
-</div>
-4. 选择Unity中正在开发的应用程序；
-<div align=center>
-	<img width=400 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/SteamVR2.0_19110804.png">
-	<img width=400 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/SteamVR2.0_19110805.png">
-</div>
-5. 将当前控制器设置成 Vive Tracker in Hand；
-<div align=center>
-	<img width=400 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/SteamVR2.0_19110806.png">
-</div>
-6. 点击管理定位器，将对应的 Tracker 设置成**手持**，并分别设置成**左右手**；
-<div align=center>
-	<img width=500 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/SteamVR2.0_19110807.png">
-</div>
-7. 如果当前按键设置为空，点击创建新按键设置；
-<div align=center>
-	<img width=300 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/SteamVR2.0_19110808.png">
-</div>
-8. 在default中勾选镜像模式，然后选择**编辑动作姿势**；
-<div align=center>
-	<img width=600 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/SteamVR2.0_19110809.png">
-</div>
-9. 将 左手Origin 设置成**Pose**；
-<div align=center>
-	<img width=400 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/SteamVR2.0_19110810.png">
-</div>
-10. 最后保存个人按键设置；
-
-**注意**: 如果点了保存之后，一直显示在上传或者没有反应，可以尝试重启下SteamVR Runtime；
+**注意**: 在运行Steam的时候，Tracker朝向还是有问题的，就是要单独打开SteamVR的情况才能使用，具体原因不明，等后面的SteamVR版本更新了之后应该会解决这个问题；
 
 
+## Vive追踪器的设置
 
-按步骤设置完之后，应该就可以在Unity中运行steamVR sdk的Demo时看到我们的Tracker了，匹配Tracker的基本操作我就不再详述了，enjoy your game；
+1. 在配对完Tracker后，右键Tracker图标，选择“管理Vive追踪器”；
+<div align=center>
+	<img width=350 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123121.png">
+</div>
+2. 找到对应的，已经识别到的，亮绿灯的Tracker设备，分别设置成“手持-左手”和“手持-右手”；
+<div align=center>
+	<img width=350 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123122.png">
+</div>
+
+**注意**: 关于区分左右手的问题，可以先关闭一个Tracker的电源，这时候打开Vive追踪器，当前的Tracker设备就是界面里亮绿灯的Tracker；
