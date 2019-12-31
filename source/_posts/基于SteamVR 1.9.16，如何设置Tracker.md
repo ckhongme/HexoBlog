@@ -12,7 +12,7 @@ categories: VR开发
 
 1. 打开Steam应用；
 <div align=center>
-	<img width=50 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123101.png">
+	<img width=100 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123101.png">
 </div> 
 2. 打开SteamVR Runtime；
 <div align=center>
@@ -20,36 +20,35 @@ categories: VR开发
 </div> 
 3. 保证SteamVR正常运行中，并且配对好两个Tracker；
 <div align=center>
-	<img width=300 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123103.png">
+	<img width=350 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123103.png">
 </div>
 4. 选择“设备”，再选择“控制器设置”；
 <div align=center>
-	<img width=300 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123104.png">
+	<img width=350 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123104.png">
 </div>
 5. 选择“Controllers”，再选择“Manage Controller Bingding”；
 <div align=center>
-	<img width=350 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123105.png">
+	<img width=400 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123105.png">
 </div>
 6. 找到“Manage Controller Bindings For”，并选择要运行的程序名称（也就是Tracker出现朝向问题的程序）；
 <div align=center>
-	<img width=300 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123106.png">
-	<img width=300 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123107.png">
+	<img width=300 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123106-7.png">
 </div>
 7. 将Active Controller Binding 设置成 “CUSTOM”，再选择“EDIT THIS BINDING”；
 <div align=center>
-	<img width=300 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123108.png">
+	<img width=350 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123108.png">
 </div>
 8. 选择返回，返回上一级界面；
 <div align=center>
-	<img width=550 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123109.png">
+	<img width=620 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123109.png">
 </div>
 9. 重新选择“当前控制器”；
 <div align=center>
-	<img width=450 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123110.png">
+	<img width=500 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123110.png">
 </div>
 10. 将当前控制器设置成 “Vive Tracker in Hand”；
 <div align=center>
-	<img width=350 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123111.png">
+	<img width=400 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123111.png">
 </div>
 11. 在当前按键设置中，选择“编辑”；
 <div align=center>
@@ -57,7 +56,7 @@ categories: VR开发
 </div>
 12. 选择“编辑动作姿势”；
 <div align=center>
-	<img width=550 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123113.png">
+	<img width=620 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123113.png">
 </div>
 13. 设置“左手原始”；
 <div align=center>
@@ -81,11 +80,11 @@ categories: VR开发
 </div>
 18. 关闭SteamVR；
 <div align=center>
-	<img width=300 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123119.png">
+	<img width=350 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123119.png">
 </div>
 19. 完全退出Steam；（桌面菜单栏，找到Steam的图标，右键，退出）
 <div align=center>
-	<img width=350 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123120.png">
+	<img width=380 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123120.png">
 </div>
 20. 重新启动Demo； 再重新打开SteamVR，不打开Steam即可；（注意，不打开Steam，只打开SteamVR；）
 
