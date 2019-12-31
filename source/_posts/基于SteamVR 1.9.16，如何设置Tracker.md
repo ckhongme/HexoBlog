@@ -32,7 +32,7 @@ categories: VR开发
 </div>
 6. 找到“Manage Controller Bindings For”，并选择要运行的程序名称（也就是Tracker出现朝向问题的程序）；
 <div align=center>
-	<img width=300 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123106-7.png">
+	<img width=650 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123106-7.png">
 </div>
 7. 将Active Controller Binding 设置成 “CUSTOM”，再选择“EDIT THIS BINDING”；
 <div align=center>
