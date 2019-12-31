@@ -1,6 +1,6 @@
 ---
-title: 使用SteamVR sdk2.0+版本时，如何在Unity中适配Tracker
-date: 2019-11-06
+title: 基于SteamVR1.9.16，如何设置Tracker
+date: 2019-12-31
 tags: [HTCVive, SteamVR]
 categories: VR开发
 ---
@@ -9,7 +9,6 @@ categories: VR开发
 
 但这个升级也改变了很多steamVR sdk原本的脚本，使得部分之前用 steamVR sdk 1.0+版本开发的同学一下子适应不过来，下面我主要讲讲使用 steamVR sdk2.0+版本时，要如何在Unity中适配 Tracker；
 
-本文基于Unity2018.4.12f1版本以及SteamVR Rumtime 1.8.19版本；
 
 ## A.在Unity端的操作
 1. 通过Unity的AssetStore获取最新版本的SteamVR sdk；
