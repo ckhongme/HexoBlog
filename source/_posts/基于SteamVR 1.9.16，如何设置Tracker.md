@@ -46,7 +46,7 @@ categories: VR开发
 <div align=center>
 	<img width=500 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123110.png">
 </div>
-10. 将当前控制器设置成 “Vive Tracker in Hand”；
+10. 将当前控制器设置成 “Vive Tracker in Hand”；（需要已经连接上Vive Tracker）
 <div align=center>
 	<img width=400 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123111.png">
 </div>
