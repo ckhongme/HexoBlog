@@ -70,7 +70,7 @@ categories: VR开发
 <div align=center>
 	<img width=250 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123116.png">
 </div>
-16. 关闭窗口，再返回上一级；
+16. 关闭窗口，再返回上一级；（不用点保存，Steam的网速实在不咋滴，所以用本地模式，直接返回即可）
 <div align=center>
 	<img width=600 src="https://raw.githubusercontent.com/ckhongme/HexoBlog/master/source/images/VR%20Development/HTC%20Vive/SteamVR2.0/Rumtime1.9.16/SteamVR2.0_19123117.png">
 </div>
