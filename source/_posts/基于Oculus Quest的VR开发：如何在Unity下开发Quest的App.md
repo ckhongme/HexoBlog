@@ -110,7 +110,7 @@ Oculus Quest是一体式VR设备，使用时无需电脑，也不用接线，所
 	</div>
 
 
-### E.打包测试
+## E.打包测试
 将Assets/Oculus/VR/Scenes下的GearVrControllerTest场景添加到 Build Settings 中，点击Build And Run即可在Quest中运行；
 如果出现下图表示安装成功；
  	<div align=center>
